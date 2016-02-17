@@ -1,6 +1,9 @@
-# composes
+# Composes
 alguns arquivos para rodar seviços do docker compose
 
-## editando conteiner criado
+## Editando conteiner criado
+```
 docker exec -i -t <name_container> bash
+```
+
 
