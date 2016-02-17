@@ -1,0 +1,6 @@
+notebook:
+  image: jupyter/notebook 
+  volumes: ["/home/$USER:/notebooks"]
+  ports: ["8888:8888"]
+  tty: true
+  stdin_open: true
